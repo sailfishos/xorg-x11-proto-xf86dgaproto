@@ -1,0 +1,14 @@
+Name: xorg-x11-proto-xf86dgaproto
+Summary: X.Org X11 Protocol xf86dgaproto
+Version: 2.1
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/xf86dgaproto-%{version}.tar.bz2
+
+Provides: xf86dgaproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
